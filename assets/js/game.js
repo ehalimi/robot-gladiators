@@ -100,7 +100,7 @@ var startGame = function() {
     }
     //if player is not alive, break out of the loop and let endGame function run
     else {
-      window.playerMoney("You have lost your robot in battle! Game Over!");
+      window.alert("You have lost your robot in battle! Game Over!");
     }
   }
   
