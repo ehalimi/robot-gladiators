@@ -18,7 +18,7 @@ var fightOrSkip = function() {
   }
 
   //convert promptFight to all lowercase so we can check with less options
-  promptFight = prom.toLowerCase();
+  promptFight = promptFight.toLowerCase();
 
   if (promptFight === "skip") {
     //confirm player wants to skip
